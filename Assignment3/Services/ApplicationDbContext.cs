@@ -7,6 +7,8 @@ namespace Assignment3.Services
         public ApplicationDbContext(DbContextOptions options) : base(options) { }
 
         public DbSet<Models.Product> Products { get; set; }
+
+        public DbSet<Models.Users> Users { get; set; }
     }
     
 }
